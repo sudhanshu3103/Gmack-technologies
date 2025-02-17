@@ -1,0 +1,44 @@
+@media (max-width:991px) {
+    div#offcanvasNavbar {
+        background: #000;
+        color: white;
+    }
+
+    ul.navbar-nav.ms-auto.align-items-center {
+        align-items: flex-start !important;
+        text-align: left;
+    }
+
+    .header-main .navbar-nav li+li {
+        margin-left: 0;
+    }
+
+    .header-main .navbar-nav li {
+        margin: 1rem 0;
+    }
+
+    .custom-close-btn {
+        background-color: white;
+        border: none;
+        font-size: 17px;
+        color: #959595;
+        position: absolute;
+        top: 15px;
+        right: 15px;
+        padding: 10px;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .custom-close-btn:hover {
+        color: #757575;
+    }
+
+    .custom-close-btn:focus {
+        outline: none;
+        box-shadow: 0 0 5px rgba(255, 87, 51, 0.5);
+    }
+
+    .navbar-toggler {
+        background: white;
+    }
+}
